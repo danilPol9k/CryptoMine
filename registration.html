@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style-white.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="blur-background"></div>
+    <div class="background">
+        <div class="background-img">
+            <header>
+                <div class="burger-wrapper">
+                    <div class="burger-btn">
+                        <img src="/images/logo.png" class="burger-logo">
+                        <button class="menu-toggle"></button>
+                    </div>
+                    <ul class="menu__list-wrapper-burger">
+                        <li class="menu-burger"><a class="menu__el-burger-text" href="index.html">Главная</a></li>
+                        <li class="menu-burger"><a class="menu__el-burger-text">Форум</a></li>
+                        <li class="menu-burger"><a class="menu__el-burger-text" href="donat.html">Донат</a></li>
+                        <li class="menu-burger"><a href="rules.html" class="menu__el-burger-text">Правила</a></li>
+                        <li class="menu-burger"><a href="registration.html"
+                                class="menu__el-burger-text menu__el-burger-text-reg">Регистрация</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-back">
+                    <div class="container-header">
+                        <nav>
+                            <div class="menu-wrapper">
+                                <div class="menu-left">
+                                    <div class="menu-left__logo">
+                                        <a class="header-logo-img" href="serverinfo.html"></a>
+                                    </div>
+                                    <div class="menu-left__list">
+                                        <ul class="menu-left__list-wrapper">
+                                            <li class="menu-left__el"><a href="#" class="menu-left__el-1"></a><a
+                                                    class="menu-left__el-text">форум</a></li>
+                                            <li class="menu-left__el"><a href="services.html"
+                                                    class="menu-left__el-2"></a><a href="donat.html"
+                                                    class="menu-left__el-text">донат</a></li>
+                                            <li class="menu-left__el"><a href="rules.html"
+                                                    class="menu-left__el-3"></a><a href="rules.html"
+                                                    class="menu-left__el-text">правила</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-right">
+                                    <a href="download.html" class="download">скачать лаунчер</a>
+                                    <a href="registration.html" class="registration">регистрация</a>
+                                </div>
+                            </div>
+                            <div class="header-line"></div>
+                            <div class="menu-down__list">
+                                <ul class="menu-down__list-wrapper">
+                                    <li><a href="#" class="menu-down__el">главная</a></li>
+                                    <li><a href="#" class="menu-down__el">личный кабинет</a></li>
+                                    <li><a href="startgame.html" class="menu-down__el">как начать игру?</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="main-container">
+                    <section class="registration-section">
+                        <div class="registration-wrapper">
+                            <div class="registration-block">
+                                <div class="registration-container">
+                                    <h3 class="registration-title">Регистрация аккаунта</h3>
+                                    <p class="registration-text">Для регистрации достаточно указать ваш никнейм,
+                                        электронную почту и пароль</p>
+                                    <form action="" class="registration-form">
+                                        <input type="text" class="registration-form__nickname" placeholder="Никнейм">
+                                        <input type="email" class="registration-form__email" placeholder="Почта">
+                                        <input type="password" class="registration-form__password" placeholder="Пароль">
+                                        <button class="registration-btn">Зарегестрироваться</button>
+                                        <label for="registration-form__captcha"
+                                            class="registration-form__captcha-label">
+                                            <input type="checkbox" class="registration-form__captcha"> Я не робот
+                                        </label>
+                                    </form>
+                                    <p class="registration-text2">Уже есть аккаунт? <a href="enter.html"
+                                            class="registration-text2--enter">Войти</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>

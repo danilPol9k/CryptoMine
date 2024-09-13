@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Покупка</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="background">
+        <div class="background-img">
+            <header>
+                <button class="lk-toggle"></button>
+                <div class="burger-wrapper">
+                    <div class="burger-btn">
+                        <img src="/images/logo.png" class="burger-logo">
+                        <button class="menu-toggle"></button>
+                    </div>
+                    <ul class="menu__list-wrapper-burger">
+                        <li class="menu-burger"><a href="index.html" class="menu__el-burger-text">Главная</a></li>
+                        <li class="menu-burger"><a class="menu__el-burger-text">Форум</a></li>
+                        <li class="menu-burger"><a href="donat.html" class="menu__el-burger-text">Донат</a></li>
+                        <li class="menu-burger"><a href="rules.html" class="menu__el-burger-text">Правила</a></li>
+                        <li class="menu-burger"><a href="registration.html"
+                                class="menu__el-burger-text menu__el-burger-text-reg">Регистрация</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-back">
+                    <div class="container-header">
+                        <nav>
+                            <div class="menu-wrapper">
+                                <div class="menu-left">
+                                    <div class="menu-left__logo">
+                                        <a href="#"><img src="/images/logo.png" alt=""></a>
+                                    </div>
+                                    <div class="menu-left__list">
+                                        <ul class="menu-left__list-wrapper">
+                                            <li class="menu-left__el"><a href="#" class="menu-left__el-1"></a><a
+                                                    class="menu-left__el-text">форум</a></li>
+                                            <li class="menu-left__el"><a href="donat.html"
+                                                    class="menu-left__el-2"></a><a href="donat.html" class="menu-left__el-text">донат</a>
+                                            </li>
+                                            <li class="menu-left__el"><a href="rules.html"
+                                                    class="menu-left__el-3"></a><a href="rules.html"
+                                                    class="menu-left__el-text">правила</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-right">
+                                    <a href="download.html" class="download">скачать лаунчер</a>
+                                    <a href="registration.html" class="registration">регистрация</a>
+                                </div>
+                            </div>
+                            <div class="header-line"></div>
+                            <div class="menu-down__list">
+                                <ul class="menu-down__list-wrapper">
+                                    <li><a href="index.html" class="menu-down__el">главная</a></li>
+                                    <li><a href="#" class="menu-down__el">личный кабинет</a></li>
+                                    <li><a href="startgame.html" class="menu-down__el">как начать игру?</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="main-container">
+                    <section class="addprivileges">
+                        <div class="wrap-wrapper">
+                            <div class="addprivileges-wrapper">
+                                <div class="addprivileges-container">
+                                    <div class="addprivileges-wrap">
+                                        <div class="addprivileges-name">
+                                            <p class="addprivileges-name__text">Название привелегии</p>
+                                            <input type="text" class="addprivileges-name__inp" placeholder="Название привелегии">
+                                        </div>
+                                        <div class="addprivileges-price">
+                                            <p class="addprivileges-price__text">Стоимость</p>
+                                            <input type="text" class="addprivileges-price__inp" placeholder="Стоимость">
+                                        </div>
+                                    </div>
+                                    <div class="addprivileges-pack-wrap">
+                                        <div class="addprivileges-pack__block">
+                                            <p class="addprivileges-pack__text">Пакет ресурсов 1</p>
+                                            <input type="text" class="addprivileges-pack__inp" placeholder="Название">
+                                        </div>
+                                        <div class="addprivileges-pack__block">
+                                            <p class="addprivileges-pack__text">Пакет ресурсов 2</p>
+                                            <input type="text" class="addprivileges-pack__inp" placeholder="Название">
+                                        </div>
+                                    </div>
+                                    <p class="addprivileges-addimg__title">Добавте изображения</p>
+                                    <div class="addprivileges-addimg-wrapper">
+                                        <button class="addprivileges-addimg__block">
+                                            <div class="addprivileges-addimg__block-line1"></div>
+                                            <div class="addprivileges-addimg__block-line2"></div>
+                                        </button>
+                                        <button class="addprivileges-addimg__block">
+                                            <div class="addprivileges-addimg__block-line1"></div>
+                                            <div class="addprivileges-addimg__block-line2"></div>
+                                        </button>
+                                    </div>
+                                    <p class="addprivileges-comserver__title">Команда на сервере</p>
+                                    <input type="text" class="addprivileges-comserver__inp" placeholder="Команда">
+                                    <p class="addprivileges-server__title">Выберите сервер</p>
+                                    <input type="text" class="addprivileges-server__inp" placeholder="Сервер">
+                                    <p class="addprivileges-possibility__title">Напишите возможности привелегии</p>
+                                    <div class="addprivileges-possibility-wrapper">
+                                        <div class="addprivileges-possibility__block">
+                                            <p class="addprivileges-possibility__block-com">/команда</p>
+                                            <span class="addprivileges-possibility__block-desc">Описание</span>
+                                        </div>
+                                        <div class="addprivileges-possibility__block">
+                                            <p class="addprivileges-possibility__block-com">/команда</p>
+                                            <span class="addprivileges-possibility__block-desc">Описание</span>
+                                        </div>
+                                        <div class="addprivileges-possibility__block">
+                                            <p class="addprivileges-possibility__block-com">/команда</p>
+                                            <span class="addprivileges-possibility__block-desc">Описание</span>
+                                        </div>
+                                    </div>
+                                    <button class="addprivileges-possibility__btn">Добавить команду</button>
+                                    <button class="addprivileges-save__btn">Сохранить и добавить</button>
+                                    <button class="addprivileges-delete__btn">Удалить</button>
+                                </div>
+                            </div>
+                            <div class="lk-wrapper">
+                                <div class="lk-container">
+                                    <h3 class="lk-title">Личный кабинет</h3>
+                                    <ul class="lists-wrapper">
+                                        <li><a href="" class="list-lk">Товары</a></li>
+                                        <li><a href="" class="list-lk">Сервера</a></li>
+                                        <li><a href="index.html" class="list-lk">Главная</a></li>
+                                        <li><a href="rules.html" class="list-lk">Правила</a></li>
+                                        <li><a href="index.html" class="list-lk">Новости</a></li>
+                                        <li><a href="" class="list-lk">Форум</a></li>
+                                        <li><a href="income.html" class="list-lk">Доход</a></li>
+                                    </ul>
+                                    <p class="lk-settings">Настройки</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
